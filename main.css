@@ -1,0 +1,136 @@
+/* * { border: 1px solid black; }    */
+.container,.part1,.itemSearch,.reciept,.calcClass{ border: 1px solid black;}
+.gashead {
+    text-align: center;
+    height:32px;
+    background-color:gray;
+    font-weight: bolder;
+}
+ .reciept{
+    height: 540px;
+     /* overflow: scroll;  */
+} 
+/* .calcClass{
+    height:590px;
+} */
+
+.pumps{
+    height: 190px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 8px;
+}
+.pumps {
+    position: relative;
+    font-family: Arial;
+}
+  .text-block {
+    position: absolute;
+    bottom: 140px;
+    right: 110px;
+    background-color: rgb(3, 0, 0);
+    color: rgb(245, 241, 241);
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+   .auth-button{
+  position: absolute;
+    bottom: 10px;
+    right: 45px;
+    background-color: rgb(12, 134, 53);
+    color: rgb(245, 241, 241);
+    font-size: 20px;
+    /* font-weight: bolder; */
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  /* .stop-button{
+    position: absolute;
+      bottom: 10px;
+      right: 30px;
+      background-color: rgb(234, 9, 9);
+      color: rgb(245, 241, 241);
+      font-size: 20px;
+      /* font-weight: bolder; 
+      padding-left: 2px;
+      padding-right: 2px;
+    };  */
+  
+  #table{
+    background-color:white;
+    
+  }
+  td {border: 1px #DDD solid; padding: 5px; cursor: pointer;width: 175px;
+  }
+
+  .selected {
+      background-color: brown;
+      color: #FFF;
+  }
+  tbody {
+    overflow-y: scroll;
+    display: block;
+    height: 440px;
+ }
+#myRecieptTableBody td{
+  padding: 5px;
+
+margin: auto;
+
+border: none;
+
+}
+ .myRecieptTable{
+    background-color:white;
+    padding: 10px;
+margin: auto;
+border: none;
+ }
+
+
+ #shortpumps{
+    margin:5px;
+} 
+
+#calcTable {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  #calcTable td {
+    padding: 4px;
+   
+    
+  }
+  #calcTable #result {
+    text-align: right;
+    width:290px;
+    height:40px;
+    font-size: 40px;
+  }
+  #calcTable button{
+    height:68px;
+    width: 90px;
+    font-size: 40px;
+  }
+  .shortimage{
+height: 90px;width: 90px;
+}
+  /* label{
+    display: inline;
+    width: 150px;
+    text-align: right;
+  } */
+  #outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+#myTable{
+  height: 350px;
+}
